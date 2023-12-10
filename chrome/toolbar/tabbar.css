@@ -24,7 +24,7 @@
   }
 
   & #titlebar {
-    --tab-min-height: 32px !important;
+    --tab-min-height: 36px !important;
     --inline-tab-padding: 11px !important;
     --tab-border-radius: 4px !important;
     --uc-toolbarbutton-inner-padding: 6px !important;
@@ -202,7 +202,7 @@
 /* #region */
 
 .tabbrowser-tab {
-  font-size: 12px !important;
+  font-size: 15px !important;
   padding-inline: 0 !important;
   /* Allow shadows to appear outside the tabs. */
   overflow-clip-margin: 8px !important;
