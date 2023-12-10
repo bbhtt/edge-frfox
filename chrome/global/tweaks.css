@@ -71,13 +71,7 @@ bugs with certain themes eg. dark text on dark background.) */
     }
   }
 
-  /* remove toolbar bg */
-  #nav-bar,
-  #PersonalToolbar {
-    background-color: transparent !important;
-  }
-
-  /* invert bottom corner radius for tabs */
+/* invert bottom corner radius for tabs */
   .tab-background {
     border-radius: var(--tab-border-radius) !important;
 
