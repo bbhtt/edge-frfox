@@ -567,8 +567,10 @@
 @media not (-moz-bool-pref: "uc.tweak.revert-context-menu") {
 
   /* Context Menu Icons */
-  menupopup>menuitem:is([checked="true"], [selected="true"]) .menu-iconic-icon {
-    list-style-image: url("checkmark.svg") !important;
+  @media (-moz-platform: windows) {
+    menupopup>menuitem:is([checked="true"], [selected="true"]) .menu-iconic-icon {
+      list-style-image: url("checkmark.svg") !important;
+    }
   }
 
   #context-video-pictureinpicture:not([checked="true"]) .menu-iconic-icon {
